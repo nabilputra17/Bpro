@@ -1,0 +1,9 @@
+public class bintang{
+  public static void main(String []argc){
+    int=0;
+    While (i<5){
+      system.out.println("*");
+      i++;
+    }
+  }
+}
