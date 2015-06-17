@@ -1,0 +1,17 @@
+import java.util.*;
+public class Perulangan{
+  public static void main(String []argv){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("jumlah bilangan ganjil: ");
+    int n=sc.nextInt();
+    int i=1;
+    int bilanganganjil=1;
+    while(i<=n){
+      System.out.ptintln(bilanganganjil);
+      bilanganganjil +=2;
+      i++;
+    }
+  }
+}
+  
+  
