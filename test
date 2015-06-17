@@ -1,0 +1,32 @@
+import java.util.*;
+class array2D
+{
+	public static void main (String []args)
+	{
+		Scanner input = new Scanner(System.in);
+		int[][] matriksA= new int[10][10];
+		int[][] matriksB= new int[10][10];
+		int[][] matriksC= new int[10][10];
+		int k,b;
+		
+		for(b=0;b<3;b++)
+		{
+			for(k=0;k<3;k++)
+			{
+				matriksA[b][k]= (int) (Math.random()*100);
+				matriksB[b][k]= (int) (Math.random()*100);
+				matriksC[b][k]= matriksA[b][k] + matriksB[b][k]; 
+			}
+		}
+		System.out.println("Matriks A");
+		for(b=0;b<3;b++)
+		{
+			for(k=0;k<3;k++)
+			{
+				System.out.print(matriksA[b][k] + " ");
+				
+			}
+		}
+	}
+	
+}
